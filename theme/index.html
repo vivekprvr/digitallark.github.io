@@ -7,19 +7,19 @@
  // GITHUB: https://github.com/themefisher/
 -->
 
-<html lang="zxx">
+<html lang="enrich">
 <head>
 
   <!-- ** Basic Page Needs ** -->
   <meta charset="utf-8">
-  <title>Megakit | HTML5 Agency Template</title>
+  <title>DigitalLark | Social Media Marketing</title>
 
   <!-- ** Mobile Specific Metas ** -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Agency HTML Template">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="Themefisher">
-  <meta name="generator" content="Themefisher Html5 Agency Template v1.0">
+  <meta name="author" content="DigitalLark">
+  <meta name="generator" content="DigitalLark | Social Media Marketing">
   
   <!-- theme meta -->
   <meta name="theme-name" content="megakit" />
@@ -33,13 +33,14 @@
   <!-- Owl Carousel CSS -->
   <link rel="stylesheet" href="plugins/slick/slick.css">
   <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
   
   <!--Favicon-->
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
-
+  
 </head>
 
 <body>
@@ -70,9 +71,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <nav class="navbar navbar-expand-lg px-0 py-4">
+          <nav class="navbar navbar-expand-lg px-0">
             <a class="navbar-brand" href="index.html">
-              Mega<span>kit.</span>
+              <img class="logo" src="../../images/digitalLark-logo.svg" alt="digitalLark">
             </a>
       
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09"
@@ -85,41 +86,8 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item dropdown @@about">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <i class="fas fa-chevron-down small"></i></a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                    <li><a class="dropdown-item @@company" href="about.html">Our company</a></li>
-                    <li><a class="dropdown-item @@pricing" href="pricing.html">Pricing</a></li>
-                    
-                    <li class="dropdown dropdown-submenu dropright">
-                      <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-            
-                      <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                        <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                        <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
+                <li class="nav-item @@about"><a class="nav-link" href="about.html">About Us</a></li>
                 <li class="nav-item @@service"><a class="nav-link" href="service.html">Services</a></li>
-                <li class="nav-item @@project"><a class="nav-link" href="project.html">Portfolio</a></li>
-                <li class="nav-item dropdown @@blog">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="fas fa-chevron-down small"></i></a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                    <li><a class="dropdown-item @@blogGrid" href="blog-grid.html">Blog Grid</a></li>
-                    <li><a class="dropdown-item @@blogSidebar" href="blog-sidebar.html">Blog with Sidebar</a></li>
-                    <li><a class="dropdown-item @@blogSingle" href="blog-single.html">Blog Single</a></li>
-      
-                    <li class="dropdown dropdown-submenu dropleft">
-                      <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-            
-                      <ul class="dropdown-menu" aria-labelledby="dropdown0501">
-                        <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                        <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
                 <li class="nav-item @@contact"><a class="nav-link" href="contact.html">Contact</a></li>
               </ul>
       
@@ -139,11 +107,14 @@
 <section class="slider">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-9 col-md-10">
+			<div class="col-lg-10 col-md-10">
 				<div class="block">
-					<span class="d-block mb-3 text-white text-capitalize">Prepare for new future</span>
-					<h1 class="animated fadeInUp mb-5">Our work is <br>presentation of our <br>capabilities.</h1>
-					<a href="#"  class="btn btn-main animated fadeInUp btn-round-full" aria-label="Get started">Get started<i class="btn-icon fa fa-angle-right ml-2"></i></a>
+					<span class="d-block mb-3 text-white text-capitalize flash">Prepare for new future</span>
+					<h1 class="animated fadeInUp mb-5">
+						A Creative Agency that aims at providing best marketing solutions for,
+						<span id="typewriter"></span>
+					</h1>
+					<a href="#"  class="btn btn-main animated fadeInUp btn-round-full" aria-label="Get started">Know More<i class="btn-icon fa fa-angle-right ml-2"></i></a>
 				</div>
 			</div>
 		</div>
@@ -153,11 +124,12 @@
 
 <section class="section intro">
 	<div class="container">
-		<div class="row ">
+		<div class="row fadeInUp">
 			<div class="col-lg-8">
 				<div class="section-title">
-					<span class="h6 text-color ">We are creative & expert people</span>
-					<h2 class="mt-3 content-title">We work with business & provide solution to client with their business problem
+					<span class="h6 text-color fadeInUp">We are creative & expert people</span>
+					<h2 class="mt-3 content-title">Digital Lark is a full suite digital marketing agency offering various digital marketing services to
+						help build your brand
 					</h2>
 				</div>
 			</div>
@@ -166,22 +138,23 @@
 			<div class="col-lg-4 col-md-6 col-12">
 				<div class="intro-item mb-5 mb-lg-0">
 					<i class="ti-desktop color-one"></i>
-					<h4 class="mt-4 mb-3">Modern & Responsive design</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<h4 class="mt-4 mb-3">Cost Effective</h4>
+					<p>Yes, we are cost effective. We are undeniably proud of the work we produce.</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-6">
 				<div class="intro-item mb-5 mb-lg-0">
 					<i class="ti-medall color-one"></i>
-					<h4 class="mt-4 mb-3">Awarded licensed company</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<h4 class="mt-4 mb-3">Consistency</h4>
+					<p>We treat success only when it’s consistent, for your business</p>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-12">
 				<div class="intro-item">
 					<i class="ti-layers-alt color-one"></i>
-					<h4 class="mt-4 mb-3">Build your website Professionally</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<h4 class="mt-4 mb-3">Transparency</h4>
+					<p>You never have to be concerned about any sensitive or confidential information
+						you share with us.</p>
 				</div>
 			</div>
 		</div>
@@ -197,14 +170,14 @@
 		<div class="row">
 			<div class="col-lg-6 offset-lg-6 offset-md-0">
 				<div class="about-item ">
-					<span class="h6 text-color">What we are</span>
-					<h2 class="mt-3 mb-4 position-relative content-title">We are dynamic team of creative people</h2>
+					<span class="h6 text-color">Who we are</span>
+					<h2 class="mt-3 mb-4 position-relative content-title">We are a dynamic team of creative people</h2>
 					<div class="about-content">
-						<h4 class="mb-3 position-relative">We are Perfect Solution</h4>
-						<p class="mb-5">We provide consulting services in the area of IFRS and management reporting, helping
-							companies to reach their highest level. We optimize business processes, making them easier.</p>
+						<h4 class="mb-3 position-relative">A one-stop solution to all your marketing needs</h4>
+						<p class="mb-5">We are a dedicated team of marketing professionals striving to help you and your brand gain
+							digital presence and help monetize your growth</p>
 
-						<a href="#" class="btn btn-main btn-round-full">Get started</a>
+						<a href="#" class="btn btn-main btn-round-full">Know More</a>
 					</div>
 				</div>
 			</div>
@@ -214,7 +187,7 @@
 
 <!-- Section About End -->
 <!-- section Counter Start -->
-<section class="section counter">
+<!-- <section class="section counter">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-sm-6">
@@ -243,7 +216,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- section Counter End  -->
 <!--  Section Services Start -->
 <section class="section service border-top">
@@ -578,8 +551,30 @@ Essential Scripts
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
 <script src="plugins/google-map/map.js" defer></script>
 
+<!-- type -->
+<script src="plugins/type/type.js"></script>
+
 <script src="js/script.js"></script>
 
+<script type='text/javascript'>
+    const typewriter = new Typewriter('#typewriter', {
+      loop: true,
+      speed: .1
+    });
+
+    typewriter.typeString('Social Media Marketing')
+      .deleteAll()
+      .typeString('Search Engine Marketing')
+      .deleteAll()
+      .typeString('Performance Marketing')
+      .deleteAll()
+      .typeString('Email Marketing')
+      .deleteAll()
+      .typeString('Website Development')
+      .deleteAll()
+      .start();
+  </script>
+  
 </body>
 
 </html>

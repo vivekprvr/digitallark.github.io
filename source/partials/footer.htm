@@ -18,8 +18,30 @@ Essential Scripts
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
 <script src="plugins/google-map/map.js" defer></script>
 
+<!-- type -->
+<script src="plugins/type/type.js"></script>
+
 <script src="js/script.js"></script>
 
+<script type='text/javascript'>
+    const typewriter = new Typewriter('#typewriter', {
+      loop: true,
+      speed: .1
+    });
+
+    typewriter.typeString('Social Media Marketing')
+      .deleteAll()
+      .typeString('Search Engine Marketing')
+      .deleteAll()
+      .typeString('Performance Marketing')
+      .deleteAll()
+      .typeString('Email Marketing')
+      .deleteAll()
+      .typeString('Website Development')
+      .deleteAll()
+      .start();
+  </script>
+  
 </body>
 
 </html>

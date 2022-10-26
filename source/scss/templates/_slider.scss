@@ -1,5 +1,5 @@
 .slider{
-  background: url("../images/bg/home-1.jpg") no-repeat;
+  background: url("../images/bg/1.jpg") no-repeat;
   background-size: cover;
   background-position: 10% 0%;
   padding:200px 0;
@@ -10,8 +10,8 @@
   @extend .overly;
   .block{
     h1{
-      font-size: 70px;
-      line-height: 80px;
+      font-size: 50px;
+      line-height: 60px;
       font-weight: 600;
       color: $light;
 
