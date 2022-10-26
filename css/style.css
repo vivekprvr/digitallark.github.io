@@ -564,7 +564,7 @@ ul.dropdown-menu li {
 }
 
 .slider {
-  background: url("../images/bg/home-1.jpg") no-repeat;
+  background: url("../images/bg/1.jpg") no-repeat;
   background-size: cover;
   background-position: 10% 0%;
   padding: 200px 0;
@@ -576,8 +576,8 @@ ul.dropdown-menu li {
   }
 }
 .slider .block h1 {
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 50px;
+  line-height: 60px;
   font-weight: 600;
   color: #fff;
 }
@@ -1295,6 +1295,10 @@ h3.quote::before {
 }
 .scroll-to-top:hover {
   background-color: #333;
+}
+
+.logo {
+  height: 100px;
 }
 
 /*=== MEDIA QUERY ===*/
